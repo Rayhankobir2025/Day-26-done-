@@ -1,0 +1,135 @@
+/* Header section */
+.header{
+    background: rgb(232, 236, 238);
+
+}
+.header-logo img{
+    width: 220px;
+}
+.header-menu{}
+.header-menu ul {
+    text-align: right;
+    margin-bottom: 0;
+}
+.header-menu ul li {
+	display: inline-block;
+	margin-left: -5px;
+}
+.header-menu ul li a {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	display: inline-block;
+	padding: 0 30px;
+	border-right: 1px solid rgb(39, 3, 240);
+	font-size: 17px;
+	line-height: 70px;
+}
+.header-menu ul li:nth-child(1) a{
+    border-left: 1px solid  rgb(39, 3, 240);
+}
+.header-menu ul li a:hover{
+    background: rgb(216, 142, 142);
+}
+
+/* Banner section */
+.banner{
+    background: url(./img/LAGO-ONE-DAY-TOURS_604x310.jpg) no-repeat center;
+    padding: 220px 0;
+    background-size: cover;
+}
+.banner-text h2 {
+	background: rgba(0, 0 , 0, .3);
+	display: inline-block;
+	color: white;
+	padding: 10px 25px;
+	border-radius: 10px;
+}
+.banner-text h1 {
+	background: yellow;
+	width: 764px;
+	margin: auto;
+	padding: 10px 20px;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+/* about section */
+.about{
+    background: #f9f9f9;
+}
+
+/* service section */
+.service{
+    background: #ecf0f1;
+}
+.service span {
+	background: #3498db;
+	display: inline-block;
+	height: 60px;
+	width: 60px;
+	color: white;
+	font-size: 30px;
+	line-height: 60px;
+	margin: 15px auto;
+	border-radius: 0 20px;
+}
+ /* content section */
+.content{
+    
+}
+.content img{
+    max-width: 100%;
+}
+.content-right{
+
+}
+.content-right h2 {
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+.content-right li {
+	list-style: none;
+	border: 1px solid #ddd;
+	margin-bottom: 10px;
+	background: #f7f7f7;
+	border-radius: 5px;
+	padding: 10px;
+}
+/* contact section */
+.contact{
+    background: #f9f9f9;
+}
+/* Footer section */
+.footer{
+    background: #000;
+    color: white;
+    padding: 10px 0;
+   
+}
+.footer p{
+    margin-bottom: 0;
+}
+.footer-right ul{
+    list-style: none;
+    text-align: right;
+    margin-bottom: 0;
+  
+}
+.footer-right ul li{
+    display: inline-block;
+    margin-left: 15px;
+}
+.footer-right ul li a {
+	display: inline-block;
+	background: #fff;
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 50%;
+}
+
+/* Hey guys I'm Rayhan Kobir.
+Day 26 done! 
+Creating full website by using bootstrap */
